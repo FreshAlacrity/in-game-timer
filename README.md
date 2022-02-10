@@ -7,24 +7,22 @@ Note: This datapack may not work correctly if another pack (or actual boss battl
 
 This pack has an MIT License - feel free to remix and such, I'd be happy to hear about what you make!
 
-Todo:
+Planned:
+- fix the gamerule sendCommandFeedback thing so it's not always false
 - add a break timer with a different colored bar (magenta?)
 - make a way for non-op people running the pack on their own to start a timer (trigger start_requests?)
 - make an option to broadcast an invitation for other players to join your pom, like `[invite]`
-- make it more visible in all the options menu settions what the current settings are/have those be more responsive
+- make it more visible in all the options menu settions what the current settings are
   - breaking up each line of the settings into a separate helper function would make this easier, so that first!
 - set all OP function buttons to say they require OP in the hover text
   - alternatively, make it so no settings require OP
-- add in a conditional execution to handle the case when a player goes to start a pomodoro and isn't part of the club and there's already a timer running (let them, know they're in the club now and there's a timer running, but that they can now press start again to reset the clock)
-- move this readme up with the pack.mcmeta and update the mcmeta file
-- collect up any other stray todos to move here or the list below
-- fix the gamerule sendCommandFeedback thing so it's not always false
-- optionally broadcast when a pom starts and include a [join] option
+- add in a conditional execution to handle the case when a player goes to start a pomodoro and isn't part of the club and there's already a timer running
+  - let them know they're in the club now and there's a timer running, but that they can now press start again to reset the clock
+- collect up any other stray todos from the code to move here or the list below
 - almost finished text should have options [cancel] [restart] [[more]]? at least different from what it is now
 
-*Let me know if you have any feedback! You can reach me by email at inserviceofinsight@gmail.com*
-
 Things I'm considering adding if people want:
+- option to broadcast when a pom starts to all players and include a [join] option
 - tracking the number of poms completed and making the rewards better as that goes up
 - second timer duration for breaks
 - options for different ticking sounds (and playing them when they are selected)
