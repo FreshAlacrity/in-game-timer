@@ -8,9 +8,6 @@ scoreboard objectives add pom.hears_ticking trigger
 scoreboard objectives add pom.sees_splash trigger
 scoreboard objectives add pom.pomodoro_club trigger
 
-# todo fix this so it reverts back somehow?
-gamerule sendCommandFeedback false
-
 # put this in its own function
 # if a maximum value hasn't bet set or isn't valid, set it to 25 minutes
 execute unless score max pom.time matches 5000..180000 run scoreboard players set max pom.time 30000
