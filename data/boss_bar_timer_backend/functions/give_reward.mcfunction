@@ -2,6 +2,10 @@
 
 #todo see if I can add in a pom.poms_completed score multiplier per-player here to increase rewards
 experience add @s 10 points
+
+# comment this out for vanilla or change to preferred item:
+give @s lootbagmod:lootbag
+
 execute at @a[scores={pom.rewards=1..}] run playsound minecraft:entity.experience_orb.pickup master @p ~ ~ ~ 1 2
 scoreboard players remove @s pom.rewards 1
 
